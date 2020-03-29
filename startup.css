@@ -1,0 +1,202 @@
+/* Fonts */
+#feature-six {
+font-family: 'Abel', sans-serif;
+font-size: 10px;
+}
+
+#feature-five h2{
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+}
+
+
+html,
+body{
+    height: 100%;
+}
+body{
+    -webkit-font-smoothing:antialiased;
+    text-rendering: optimizeLegibility;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #333;
+}
+h6{
+    text-transform:uppercase;
+    font-weight: 600;
+    font-size: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+img{
+    max-width: 100%;
+}
+.blockquote{
+    font-size:1.6rem;
+    padding: 0;
+    color: #333;
+    border: none;
+}
+.blockquote-footer{
+    margin: 1rem 0 0;
+}
+#stage{
+    background: url('img/Corona%20banner%20copy.png') center center no-repeat;
+    color: white;
+    height: 100%;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#stage-caption{
+    font-size: 1.4rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    font-weight: 200;
+    text-align: center;
+}
+#stage-caption h1{
+    color: white;
+    animation:text 5s 1;
+    font-family:serif;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+/* Corona iNfo section*/
+#info-new h4{
+    color: white;
+}
+.info-1{
+    margin-left: 1rem;
+    font-weight: 100;
+}
+.info-2{
+    margin-left: 1rem;
+    font-weight: 100;
+}
+.info-3{
+    margin-left: 1rem;
+    font-weight: 100;
+}
+#corona-info{
+    background: url('img/Banner%201.png') center center no-repeat;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top:1.6rem;
+    align-items: center;
+}
+#corona-info h3{
+    text-align: center;
+    font-family:cursive;
+    margin-bottom: 0.2rem;
+}
+#feature-four img{
+    margin-bottom:0.3rem;
+}
+
+.feature-content{
+    padding: 8rem 0;
+    overflow: hidden;
+    
+}
+.feature-content img{
+    margin-bottom: -8rem;
+    
+}
+.feature-dark{
+    background: #262F36;
+    color: white;
+}
+
+.feature-alt{
+    background: #f0f0f0;
+}
+
+
+.feature-dark h1{
+   
+    color: white;
+}
+
+.feature-content .feature-content{
+    padding: 0;
+}
+#feature-five img{
+    margin-top: 2rem;
+    margin-bottom:0.2rem;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+#feature-five h2{
+    margin-top: 0;
+}
+
+#main-footer{
+    color: white;
+    background: #262F36;
+    padding: 5rem 0;
+    font-size: 0.8rem;
+}
+#main-footer h5,h6{
+    color:white;
+    
+}
+#main-footer a{
+    color: #6C6F73;
+}
+
+<!-- Media query -->
+@media screen and(min-width: 991px){
+    .feature-content{
+    display: flex;
+        align-items: center;
+    
+}
+}
+
+#feature-six h2 p1{
+margin-right: 10rem;
+}
+
+#feature-six img{
+    margin-left: 10rem ;
+    margin-bottom: 2rem;
+    width:80;height: 80;
+}
+#feature-seven{
+      background-color: beige;
+}
+#feature-seven h2{
+    font-weight: bold;
+    color:lightgray;;
+}
+
+/* Footer Social media */
+
+#social-footer{
+    color: white;
+    background: #0a0a08;
+    padding: 1.5rem 0;
+    font-size: 0.8rem;
+}
+#feature-three{
+    background-color: beige;
+}
+
+#feature-three img{
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+    background-size: cover;
+    background-position: center;
+}
+#feature-three h2{
+     font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    color: darkcyan;
+}
